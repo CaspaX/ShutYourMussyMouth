@@ -1,4 +1,5 @@
-do 
+
+do
     local ui =  game:GetService("CoreGui"):FindFirstChild("NBTxTP Lib") 
     if ui then
         ui:Destroy()
