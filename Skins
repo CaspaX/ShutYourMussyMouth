@@ -1,0 +1,163 @@
+local SKINS = {
+    ["1v1 in"] = {
+        HATS_CONFIG = {
+            {
+                Name = "Accessory (MeshPartAccessory)",
+                MeshId = "rbxassetid://91645862494539",
+                TextureId = "rbxassetid://17888500132",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(0.011, 0.514, 0.034, -0.959, 0, 0.284, 0, 1, 0, -0.284, 0, -0.959),
+                C1 = CFrame.new(0, 0.6, 0),
+            },
+            {
+                Name = "Accessory (jihan new hair 2)",
+                MeshId = "rbxassetid://121727908726850",
+                TextureId = "rbxassetid://70591554608796",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(0.001, 0.582, -0.061),
+                C1 = CFrame.new(0, 0.6, 0),
+            },
+            {
+                Name = "Accessory (MeshPartAccessory)",
+                MeshId = "rbxassetid://74171694803718",
+                TextureId = "rbxassetid://77795729464530",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(-0.068, 0.445, 0.001, 0, 0, 1, 0, 1, 0, -1, 0, 0),
+                C1 = CFrame.new(0, 0.6, 0),
+            },
+            {
+                Name = "Accessory (side bow 1.0)",
+                MeshId = "rbxassetid://86039943063626",
+                TextureId = "rbxassetid://95239924703855",
+                Size = Vector3.new(1, 1, 1),
+                C0 = nil,
+                C1 = nil,
+            },
+            {
+                Name = "MeshPartAccessory",
+                MeshId = "rbxassetid://12359331549",
+                TextureId = "rbxassetid://12359331062",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(0.007, 0.403, 0.465, 1, 0, 0, 0, 0.766, 0.643, 0, -0.643, 0.766),
+                C1 = CFrame.new(0, 0, 0),
+            },
+        },
+        SHIRTS_CONFIG = {
+            {
+                ShirtTemplate = "http://www.roblox.com/asset/?id=115292796960233",
+            },
+        },
+        PANTS_CONFIG = {
+            {
+                PantsTemplate = "http://www.roblox.com/asset/?id=12616377616",
+            },
+        },
+    },
+
+    ["full branco"] = {
+        HATS_CONFIG = {
+            {
+                Name = "Accessory (MeshPartAccessory)",
+                MeshId = "rbxassetid://18607063242",
+                TextureId = "rbxassetid://18610988796",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(0.005, 0.723, -0.067),
+                C1 = CFrame.new(0, 0.6, 0),
+            },
+            {
+                Name = "1.0Cross",
+                MeshId = "rbxassetid://13466532386",
+                TextureId = "rbxassetid://13466577167",
+                Size = Vector3.new(1, 1, 1),
+                C0 = nil,
+                C1 = nil,
+            },
+        },
+        SHIRTS_CONFIG = {},
+        PANTS_CONFIG = {
+            {
+                PantsTemplate = "http://www.roblox.com/asset/?id=13024250690",
+            },
+        },
+    },
+
+    ["negroBrasil"] = {
+        HATS_CONFIG = {
+            {
+                Name = "MessyHairBrown",
+                MeshId = "",
+                TextureId = "",
+                Size = Vector3.new(1.942, 1.861, 1.987),
+                C0 = CFrame.new(0.095, 0.475, -0.190),
+                C1 = CFrame.new(0, 0.57, 0),
+            },
+            {
+                Name = "KittyEars - MP",
+                MeshId = "",
+                TextureId = "",
+                Size = Vector3.new(0.996, 0.490, 0.104),
+                C0 = CFrame.new(0, -0.168, -0.059),
+                C1 = CFrame.new(0, 0.57, 0),
+            },
+            {
+                Name = "WoolBalaclava",
+                MeshId = "",
+                TextureId = "",
+                Size = Vector3.new(1.238, 1.412, 1.326),
+                C0 = CFrame.new(0.001, 0.407, -0.034, -1, 0, 0, 0, 1, 0, 0, 0, -1),
+                C1 = CFrame.new(0, 0.57, 0),
+            },
+            {
+                Name = "Accessory (defaultAccessory)",
+                MeshId = "",
+                TextureId = "",
+                Size = Vector3.new(1.951, 0.988, 0.820),
+                C0 = CFrame.new(0, -0.284, 0.028),
+                C1 = CFrame.new(0, 0.57, 0),
+            },
+            {
+                Name = "1.0 M",
+                MeshId = "",
+                TextureId = "",
+                Size = Vector3.new(0.860, 0.493, 0.982),
+                C0 = nil,
+                C1 = nil,
+            },
+        },
+        SHIRTS_CONFIG = {
+            {
+                ShirtTemplate = "http://www.roblox.com/asset/?id=16855869073",
+            },
+        },
+        PANTS_CONFIG = {
+            {
+                PantsTemplate = "http://www.roblox.com/asset/?id=12781285768",
+            },
+        },
+    },
+
+    ["SilverCross"] = {
+        HATS_CONFIG = {
+            {
+                Name = "Silver Double Cross Earrings",
+                MeshId = "rbxassetid://13933920789",
+                TextureId = "rbxassetid://13601443928",
+                Size = Vector3.new(1, 1, 1),
+                C0 = CFrame.new(0.014, 0.853, 0.074),
+                C1 = CFrame.new(0, 0.6, 0),
+            },
+        },
+        SHIRTS_CONFIG = {
+            {
+                ShirtTemplate = "http://www.roblox.com/asset/?id=122807901324316",
+            },
+        },
+        PANTS_CONFIG = {
+            {
+                PantsTemplate = "http://www.roblox.com/asset/?id=80161111136641",
+            },
+        },
+    },
+}
+
+return SKINS
